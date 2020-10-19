@@ -1054,7 +1054,7 @@ index ba0952c73c..fd1da2bc6d 100644
 +	"nc=setenv stdout nc;setenv stdin nc;\0" \ 
 +	"ethaddr=00:0a:35:00:22:01\0" \
 +	"autoload=no\0" \ 
-+	"sdbootdev=0\0" \ 
++	"sdbootdev=1\0" \ 
 +	"clobstart=0x81000000\0" \ 
 +	"netstart=0x81000000\0" \ 
 +	"dtbnetstart=0x82800000\0" \ 
